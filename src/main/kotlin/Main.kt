@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
             break
         }
         i += 1
-        }
+    }
     if (i == 11) {
         print("Вы не угадали. Было загадано: $n")
     }
