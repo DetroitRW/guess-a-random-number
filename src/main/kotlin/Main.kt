@@ -2,11 +2,11 @@ import java.util.*
 
 fun main(args: Array<String>) {
 
-    val n = Random(System.nanoTime()).nextInt(0, 100)
+    val n = Random(System.nanoTime()).nextInt(0, 101)
 
     val reader = Scanner(System.`in`)
 
-    println("Отгадайте число от 1 до 100 за 10 попыток")
+    println("Отгадайте число от 0 до 100 за 10 попыток")
 
     var i = 1
 
